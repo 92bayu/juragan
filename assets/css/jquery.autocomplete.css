@@ -1,0 +1,23 @@
+.autocomplete-suggestions { border: 1px solid #999; background: #FFF; overflow: auto; }
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: normal; color: #3399FF; }
+/* CUSTOM BAYU */
+.autocomplete-suggestions img{
+    float: left;
+    width: 40px;
+    margin-right: 10px;
+}
+.autocomplete-suggestions h5{
+    font-family: 'RobotoCondensed', Arial, Helvetica, sans-serif;
+}
+.autocomplete-suggestion{
+    cursor: pointer;
+    border-bottom: 1px solid #aeaeae;
+}
+.autocomplete-suggestion:hover,.autocomplete-selected{
+    background: #fb9337;
+    color: #fff;
+}
+.autocomplete-suggestions strong { font-weight: normal; color: #fb9337; }
+.autocomplete-suggestions:hover strong{ color: #fff; }

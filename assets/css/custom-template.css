@@ -1,0 +1,51 @@
+.topheader{
+    background: #e7e7e7 url(../images/topheaderbg.png);
+    border-bottom-color: #ccc;
+}
+.userinfo{
+    background-color: #eee;
+    border-bottom-color: #aeaeae;
+    box-shadow: inset 1px 1px 2px #989898;
+}
+.userinfo span{
+    color: #282828;
+}
+.userinfo:hover{
+    background-color: #bbb;
+}
+.headerwidget .earnings{
+    background-color: #eee;
+    border-bottom-color: #aeaeae;
+    box-shadow: inset 1px 1px 2px #989898;
+}
+.headerwidget .earnings h4{
+    color: #282828;
+}
+.headerwidget .earnings h2{
+    color: #676767;
+}
+.headermenu{
+    border-right-color: #ccc;
+}
+.headermenu li{
+    border-left-color: #ccc;
+    border-right-color: #e7e7e7;
+}
+.headermenu li a{
+    color: #444;
+}
+.headermenu li.current{
+    border-right-color: #ccc;
+}
+.headermenu li a:hover{
+    background-image: url(../images/bghover.png);
+    box-shadow: inset 0 1px 0 #ccc;
+}
+.headermenu li.current a{
+    background-image: url(../images/arrow-active.png);
+    box-shadow: inset 0 1px 0 #ccc;
+}
+.header{
+    background: #e9e9e9 url(../images/headerbg.png);
+    box-shadow: inset 0 1px 0 #e7e7e7;
+}
